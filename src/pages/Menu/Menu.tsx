@@ -1,9 +1,16 @@
 import Item from '../../components/Item/Item';
 import ItemList from '../../components/ItemList/ItemList';
+import Header from '../../components/Header/Header';
+import Title from '../../components/Title/Title';
+import Search from '../../components/Search/Search';
 
 const Menu = () => {
   return (
     <>
+      <Header>
+        <Title>Меню</Title>
+        <Search placeholder="Введите блюдо или состав" />
+      </Header>
       <ItemList>
         <Item
           name="Наслаждение"

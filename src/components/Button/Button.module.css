@@ -16,11 +16,12 @@
 .button.menu {
   display: flex;
 
-  margin-top: auto;
-  padding-left: 9px;
   max-height: 43px;
+
+  margin-top: auto;
   padding-top: 9px;
   padding-bottom: 8px;
+  padding-left: 9px;
   gap: 9px;
 }
 

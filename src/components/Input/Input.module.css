@@ -6,3 +6,8 @@
   background: rgb(255 255 255);
   box-shadow: 15px 20px 45px 0 rgb(233 233 233 / 25%);
 }
+
+.wide {
+  width: 256px;
+  height: 51px;
+}
