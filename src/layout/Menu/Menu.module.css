@@ -1,0 +1,31 @@
+.wrapper {
+  display: grid;
+
+  padding-top: 39px;
+  padding-right: 60px;
+  padding-left: 30px;
+  grid-template-columns: max-content 1fr;
+  gap: 64px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+
+  text-decoration: none;
+
+  color: var(--black-color);
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  gap: 14px;
+}
+
+.link:hover {
+  color: var(--primary-color);
+}
+
+.link-active {
+  color: var(--primary-color);
+}

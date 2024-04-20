@@ -1,0 +1,9 @@
+.item {
+  display: grid;
+
+  padding: 13px;
+
+  border-radius: 18.21px;
+  background: var(--white-color);
+  box-shadow: 18.21px 18.21px 36.43px 0 rgb(211 209 216 / 25%);
+}
