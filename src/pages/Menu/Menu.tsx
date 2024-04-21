@@ -13,6 +13,7 @@ const Menu = () => {
       </Header>
       <ItemList>
         <Item
+          itemId={1}
           name="Наслаждение"
           description="Салями, руккола, помидоры, оливки"
           price={300}
